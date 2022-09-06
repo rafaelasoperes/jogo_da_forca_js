@@ -8,17 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Jogo da forca</title>
 </head>
+
 <body>
     <header>
         <h1>Jogo da Forca</h1>
     </header>
 
-    <main class="container">
-        <div>
-            <a href="forca.html"><button class="jogar">Começar a jogar</button></a>
-            <a href="nova_palavra.html"><button class="adicionar"> Adicionar Nova Palavra</button></a>
-        </div>
+    <main class="container_adicionar">
+        <section>
+            <input id="nova_palavra" type="text"  placeholder="Digite uma nova palavra" >
+            <p id="aviso"><img src="Vector.png" alt="aviso de atenção"> Máx. de 8 letras</p>
+
+            <div>
+                <a href="forca.html"><button class="salvar">Salvar e Começar</button></a>
+                <a href="index.html"><button class="cancelar">Cancelar</button></a>
+            </div>
+        </section>
+
     </main>
+
     <footer>
         <h2> Criado por Rafaela Oliveira</h2>
         <p>Me siga nas minhas redes socias</p>
@@ -38,4 +46,3 @@
         </section>
     </footer>
 </body>
-</html>
