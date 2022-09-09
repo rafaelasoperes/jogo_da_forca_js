@@ -109,5 +109,12 @@ footer {
 
 canvas {
     margin: 10px;
-    background: white;
+    border: #000000 2px solid;
+    background: transparent;
+}
+
+.palavra{
+    margin: 10px;
+    width: 1000px;
+    height: 200px;
 }
